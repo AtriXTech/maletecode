@@ -3,15 +3,851 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <script src="https://kit.fontawesome.com/39c5fdd9a0.js" crossorigin="anonymous"></script>
-    <style>
-        .fa-pen{
-            color:green;
+
+    <title>MedMart</title>
+<script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <!-- Phosphor Icons -->
+<link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/@phosphor-icons/web@2.1.2/src/regular/style.css"
+>
+
+<link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/@phosphor-icons/web@2.1.2/src/light/style.css"
+>
+<link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/@phosphor-icons/web@2.1.2/src/bold/style.css"
+>
+  <style>
+        .font-manrope {
+            font-family: 'Manrope', sans-serif;
+        }
+
+        .font-inter {
+            font-family: 'Inter', sans-serif;
         }
     </style>
 </head>
 <body>
-    <h1>pen<i class="fa-solid fa-pen"></i></h1>
+    
+<body class="bg-[#F8FAFC] text-[#171E26]">
+
+    <div class="max-w-7xl mx-auto px-6 py-16">
+
+        <!-- HEADER -->
+        <div class="mb-12">
+            <p class="text-sm font-semibold text-[#08AEBC] uppercase tracking-widest">
+                MedMart Color System
+            </p>
+
+            <h1 class="text-4xl md:text-5xl font-bold mt-2">
+                Professional Gradients
+            </h1>
+
+            <p class="text-gray-500 mt-4 max-w-2xl">
+                A collection of clean gradients generated from the
+                MedMart brand palette.
+               <i class="ph ph-house text-6xl"></i>
+               <i class="ph-bold ph-house text-6xl"></i>
+            </p>
+        </div>
+        <!-- COLOR ROLES -->
+<section class="mb-20">
+
+    <div class="mb-10">
+        <p class="text-sm font-semibold text-[#08AEBC] uppercase tracking-widest">
+            MedMart Color System
+        </p>
+
+        <h2 class="text-4xl md:text-5xl font-bold mt-2 text-[#171E26]">
+            What each color is for
+        </h2>
+
+        <p class="text-gray-500 mt-4 max-w-2xl">
+            Every color in the MedMart palette has a specific role.
+            This keeps the interface consistent and professional.
+        </p>
+        <p>
+            MedMart typography rule:
+
+Manrope → headings, hero text, section titles, product names
+Inter → paragraphs, buttons, navigation, forms, labels
+        </p>
+    </div>
+
+
+    <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
+
+
+        <!-- PRIMARY BLUE -->
+        <div class="bg-white rounded-3xl border border-[#DBEBFB] p-6 shadow-md">
+
+            <div class="h-24 rounded-2xl bg-[#2775E4] mb-5"></div>
+
+            <div class="flex items-center justify-between">
+
+                <div>
+                    <h3 class="text-xl font-bold text-[#171E26]">
+                        Primary Blue
+                    </h3>
+
+                    <p class="text-sm text-gray-400 mt-1">
+                        #2775E4
+                    </p>
+                </div>
+
+                <span class="
+                    px-3 py-1
+                    rounded-full
+                    bg-[#E9F3FE]
+                    text-[#2775E4]
+                    text-xs
+                    font-semibold
+                ">
+                    BRAND
+                </span>
+
+            </div>
+
+            <p class="text-gray-500 text-sm leading-relaxed mt-4">
+                The main MedMart brand color. Use it for primary
+                buttons, links, active states, icons and important
+                actions.
+            </p>
+
+            <div class="mt-5 text-sm font-medium text-[#171E26]">
+                Best for:
+                <span class="text-[#2775E4]">
+                    Buttons · Links · Logo · Active states
+                </span>
+            </div>
+
+        </div>
+
+
+        <!-- TEAL -->
+        <div class="bg-white rounded-3xl border border-[#DBEBFB] p-6 shadow-sm">
+
+            <div class="h-24 rounded-2xl bg-[#08AEBC] mb-5"></div>
+
+            <div class="flex items-center justify-between">
+
+                <div>
+                    <h3 class="text-xl font-bold text-[#171E26]">
+                        Healthcare Teal
+                    </h3>
+
+                    <p class="text-sm text-gray-400 mt-1">
+                        #08AEBC
+                    </p>
+                </div>
+
+                <span class="
+                    px-3 py-1
+                    rounded-full
+                    bg-[#E9F3FE]
+                    text-[#058A98]
+                    text-xs
+                    font-semibold
+                ">
+                    ACCENT
+                </span>
+
+            </div>
+
+            <p class="text-gray-500 text-sm leading-relaxed mt-4">
+                Adds the healthcare personality to MedMart.
+                Use it for secondary actions, medical icons,
+                highlights and accents.
+            </p>
+
+            <div class="mt-5 text-sm font-medium text-[#171E26]">
+                Best for:
+                <span class="text-[#08AEBC]">
+                    Healthcare · Icons · Badges · Highlights
+                </span>
+            </div>
+
+        </div>
+
+
+        <!-- DARK TEAL -->
+        <div class="bg-white rounded-3xl border border-[#DBEBFB] p-6 shadow-sm">
+
+            <div class="h-24 rounded-2xl bg-[#058A98] mb-5"></div>
+
+            <div class="flex items-center justify-between">
+
+                <div>
+                    <h3 class="text-xl font-bold text-[#171E26]">
+                        Dark Teal
+                    </h3>
+
+                    <p class="text-sm text-gray-400 mt-1">
+                        #058A98
+                    </p>
+                </div>
+
+                <span class="
+                    px-3 py-1
+                    rounded-full
+                    bg-[#E9F3FE]
+                    text-[#058A98]
+                    text-xs
+                    font-semibold
+                ">
+                    INTERACTION
+                </span>
+
+            </div>
+
+            <p class="text-gray-500 text-sm leading-relaxed mt-4">
+                The darker version of the healthcare teal.
+                Primarily used for hover states and stronger
+                teal accents.
+            </p>
+
+            <div class="mt-5 text-sm font-medium text-[#171E26]">
+                Best for:
+                <span class="text-[#058A98]">
+                    Hover · Focus · Dark accents
+                </span>
+            </div>
+
+        </div>
+
+
+        <!-- HERO BACKGROUND -->
+        <div class="bg-white rounded-3xl border border-[#DBEBFB] p-6 shadow-sm">
+
+            <div class="h-24 rounded-2xl bg-[#E9F3FE] mb-5"></div>
+
+            <div class="flex items-center justify-between">
+
+                <div>
+                    <h3 class="text-xl font-bold text-[#171E26]">
+                        Hero Background
+                    </h3>
+
+                    <p class="text-sm text-gray-400 mt-1">
+                        #E9F3FE
+                    </p>
+                </div>
+
+                <span class="
+                    px-3 py-1
+                    rounded-full
+                    bg-[#E9F3FE]
+                    text-[#2775E4]
+                    text-xs
+                    font-semibold
+                ">
+                    BACKGROUND
+                </span>
+
+            </div>
+
+            <p class="text-gray-500 text-sm leading-relaxed mt-4">
+                The primary soft background for large sections,
+                especially the landing-page hero.
+            </p>
+
+            <div class="mt-5 text-sm font-medium text-[#171E26]">
+                Best for:
+                <span class="text-[#2775E4]">
+                    Hero · Large sections · Page backgrounds
+                </span>
+            </div>
+
+        </div>
+
+
+        <!-- LARGE BLUE SHAPE -->
+        <div class="bg-white rounded-3xl border border-[#DBEBFB] p-6 shadow-sm">
+
+            <div class="h-24 rounded-2xl bg-[#B1D0FB] mb-5"></div>
+
+            <div class="flex items-center justify-between">
+
+                <div>
+                    <h3 class="text-xl font-bold text-[#171E26]">
+                        Decorative Blue
+                    </h3>
+
+                    <p class="text-sm text-gray-400 mt-1">
+                        #B1D0FB
+                    </p>
+                </div>
+
+                <span class="
+                    px-3 py-1
+                    rounded-full
+                    bg-[#E9F3FE]
+                    text-[#2775E4]
+                    text-xs
+                    font-semibold
+                ">
+                    DECORATION
+                </span>
+
+            </div>
+
+            <p class="text-gray-500 text-sm leading-relaxed mt-4">
+                A stronger soft blue used to create depth and
+                decorative shapes behind images or content.
+            </p>
+
+            <div class="mt-5 text-sm font-medium text-[#171E26]">
+                Best for:
+                <span class="text-[#2775E4]">
+                    Shapes · Blobs · Image backgrounds
+                </span>
+            </div>
+
+        </div>
+
+
+        <!-- SOFT SURFACE -->
+        <div class="bg-white rounded-3xl border border-[#DBEBFB] p-6 shadow-sm">
+
+            <div class="h-24 rounded-2xl bg-[#DBEBFB] mb-5"></div>
+
+            <div class="flex items-center justify-between">
+
+                <div>
+                    <h3 class="text-xl font-bold text-[#171E26]">
+                        Soft Surface
+                    </h3>
+
+                    <p class="text-sm text-gray-400 mt-1">
+                        #DBEBFB
+                    </p>
+                </div>
+
+                <span class="
+                    px-3 py-1
+                    rounded-full
+                    bg-[#E9F3FE]
+                    text-[#2775E4]
+                    text-xs
+                    font-semibold
+                ">
+                    SURFACE
+                </span>
+
+            </div>
+
+            <p class="text-gray-500 text-sm leading-relaxed mt-4">
+                Used to separate content without relying heavily
+                on borders or dark colors.
+            </p>
+
+            <div class="mt-5 text-sm font-medium text-[#171E26]">
+                Best for:
+                <span class="text-[#2775E4]">
+                    Cards · Inputs · Categories · Sections
+                </span>
+            </div>
+
+        </div>
+
+
+        <!-- TEXT -->
+        <div class="bg-white rounded-3xl border border-[#DBEBFB] p-6 shadow-sm">
+
+            <div class="
+                h-24
+                rounded-2xl
+                bg-[#171E26]
+                mb-5
+            "></div>
+
+            <div class="flex items-center justify-between">
+
+                <div>
+                    <h3 class="text-xl font-bold text-[#171E26]">
+                        Primary Text
+                    </h3>
+
+                    <p class="text-sm text-gray-400 mt-1">
+                        #171E26
+                    </p>
+                </div>
+
+                <span class="
+                    px-3 py-1
+                    rounded-full
+                    bg-[#171E26]
+                    text-white
+                    text-xs
+                    font-semibold
+                ">
+                    TEXT
+                </span>
+
+            </div>
+
+            <p class="text-gray-500 text-sm leading-relaxed mt-4">
+                The main text color for headings, navigation,
+                product names and important information.
+            </p>
+
+            <div class="mt-5 text-sm font-medium text-[#171E26]">
+                Best for:
+                <span class="text-[#171E26]">
+                    Headings · Navigation · Important text
+                </span>
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+        <!-- GRADIENT GRID -->
+        <div class="grid md:grid-cols-2 gap-8">
+
+
+            <!-- 01 -->
+            <div class="space-y-3">
+
+                <div class="
+                    h-64
+                    rounded-3xl
+                    bg-gradient-to-br
+                    from-[#2775E4]
+                    to-[#08AEBC]
+                    flex
+                    items-end
+                    p-8
+                ">
+
+                    <div class="text-white">
+                        <p class="text-sm opacity-80">
+                            Primary Gradient
+                        </p>
+
+                        <h2 class="text-3xl font-bold">
+                            Blue → Teal
+                        </h2>
+                    </div>
+
+                </div>
+
+                <code class="text-sm text-gray-500">
+                    from-[#2775E4] to-[#08AEBC]
+                </code>
+
+            </div>
+
+
+            <!-- 02 -->
+            <div class="space-y-3">
+
+                <div class="
+                    h-64
+                    rounded-3xl
+                    bg-gradient-to-r
+                    from-[#2775E4]
+                    via-[#08AEBC]
+                    to-[#058A98]
+                    flex
+                    items-end
+                    p-8
+                ">
+
+                    <div class="text-white">
+
+                        <p class="text-sm opacity-80">
+                            Brand Gradient
+                        </p>
+
+                        <h2 class="text-3xl font-bold">
+                            Blue → Teal → Dark Teal
+                        </h2>
+
+                    </div>
+
+                </div>
+
+                <code class="text-sm text-gray-500">
+                    from-[#2775E4] via-[#08AEBC] to-[#058A98]
+                </code>
+
+            </div>
+
+
+            <!-- 03 -->
+            <div class="space-y-3">
+
+                <div class="
+                    h-64
+                    rounded-3xl
+                    bg-gradient-to-br
+                    from-[#E9F3FE]
+                    via-[#DBEBFB]
+                    to-[#B1D0FB]
+                    flex
+                    items-end
+                    p-8
+                ">
+
+                    <div>
+
+                        <p class="text-sm text-[#058A98] font-medium">
+                            Hero Gradient
+                        </p>
+
+                        <h2 class="text-3xl font-bold text-[#171E26]">
+                            Soft Healthcare
+                        </h2>
+
+                    </div>
+
+                </div>
+
+                <code class="text-sm text-gray-500">
+                    from-[#E9F3FE] via-[#DBEBFB] to-[#B1D0FB]
+                </code>
+
+            </div>
+
+
+            <!-- 04 -->
+            <div class="space-y-3">
+
+                <div class="
+                    h-64
+                    rounded-3xl
+                    bg-gradient-to-br
+                    from-[#DBEBFB]
+                    via-[#B1D0FB]
+                    to-[#2775E4]
+                    flex
+                    items-end
+                    p-8
+                ">
+
+                    <div class="text-white">
+
+                        <p class="text-sm opacity-80">
+                            Depth Gradient
+                        </p>
+
+                        <h2 class="text-3xl font-bold">
+                            Soft Blue → Blue
+                        </h2>
+
+                    </div>
+
+                </div>
+
+                <code class="text-sm text-gray-500">
+                    from-[#DBEBFB] via-[#B1D0FB] to-[#2775E4]
+                </code>
+
+            </div>
+
+
+            <!-- 05 -->
+            <div class="space-y-3">
+
+                <div class="
+                    h-64
+                    rounded-3xl
+                    bg-gradient-to-br
+                    from-[#2775E4]
+                    via-[#08AEBC]
+                    to-[#E9F3FE]
+                    flex
+                    items-end
+                    p-8
+                ">
+
+                    <div class="text-[#171E26]">
+
+                        <p class="text-sm font-medium">
+                            Light Brand
+                        </p>
+
+                        <h2 class="text-3xl font-bold">
+                            Blue → Teal → Mist
+                        </h2>
+
+                    </div>
+
+                </div>
+
+                <code class="text-sm text-gray-500">
+                    from-[#2775E4] via-[#08AEBC] to-[#E9F3FE]
+                </code>
+
+            </div>
+
+
+            <!-- 06 -->
+            <div class="space-y-3">
+
+                <div class="
+                    h-64
+                    rounded-3xl
+                    bg-gradient-to-br
+                    from-[#058A98]
+                    via-[#08AEBC]
+                    to-[#B1D0FB]
+                    flex
+                    items-end
+                    p-8
+                ">
+
+                    <div class="text-white">
+
+                        <p class="text-sm opacity-80">
+                            Healthcare Gradient
+                        </p>
+
+                        <h2 class="text-3xl font-bold">
+                            Teal → Blue
+                        </h2>
+
+                    </div>
+
+                </div>
+
+                <code class="text-sm text-gray-500">
+                    from-[#058A98] via-[#08AEBC] to-[#B1D0FB]
+                </code>
+
+            </div>
+
+
+            <!-- 07 -->
+            <div class="space-y-3">
+
+                <div class="
+                    h-64
+                    rounded-3xl
+                    bg-gradient-to-br
+                    from-[#171E26]
+                    via-[#058A98]
+                    to-[#08AEBC]
+                    flex
+                    items-end
+                    p-8
+                ">
+
+                    <div class="text-white">
+
+                        <p class="text-sm opacity-70">
+                            Dark Mode
+                        </p>
+
+                        <h2 class="text-3xl font-bold">
+                            Navy → Teal
+                        </h2>
+
+                    </div>
+
+                </div>
+
+                <code class="text-sm text-gray-500">
+                    from-[#171E26] via-[#058A98] to-[#08AEBC]
+                </code>
+
+            </div>
+
+
+            <!-- 08 -->
+            <div class="space-y-3">
+
+                <div class="
+                    h-64
+                    rounded-3xl
+                    bg-gradient-to-br
+                    from-[#E9F3FE]
+                    via-white
+                    to-[#DBEBFB]
+                    border
+                    border-[#DBEBFB]
+                    flex
+                    items-end
+                    p-8
+                ">
+
+                    <div>
+
+                        <p class="text-sm text-[#08AEBC] font-medium">
+                            Minimal
+                        </p>
+
+                        <h2 class="text-3xl font-bold text-[#171E26]">
+                            Medical Mist
+                        </h2>
+
+                    </div>
+
+                </div>
+
+                <code class="text-sm text-gray-500">
+                    from-[#E9F3FE] via-white to-[#DBEBFB]
+                </code>
+
+            </div>
+
+        </div>
+
+
+        <!-- REAL UI EXAMPLE -->
+        <div class="mt-20">
+
+            <p class="text-sm font-semibold text-[#08AEBC] uppercase tracking-widest">
+                Real UI Example
+            </p>
+
+            <div class="
+                mt-5
+                relative
+                overflow-hidden
+                rounded-[32px]
+                min-h-[420px]
+                bg-gradient-to-br
+                from-[#E9F3FE]
+                via-[#DBEBFB]
+                to-[#B1D0FB]
+                p-10
+                md:p-16
+            ">
+
+                <!-- Decorative circle -->
+                <div class="
+                    absolute
+                    -right-20
+                    -top-20
+                    w-72
+                    h-72
+                    rounded-full
+                    bg-[#2775E4]/20
+                    blur-2xl
+                "></div>
+
+                <!-- Decorative circle -->
+                <div class="
+                    absolute
+                    -left-20
+                    -bottom-20
+                    w-72
+                    h-72
+                    rounded-full
+                    bg-[#08AEBC]/20
+                    blur-2xl
+                "></div>
+
+
+                <div class="relative z-10 max-w-2xl">
+
+                    <span class="
+                        inline-flex
+                        px-4
+                        py-2
+                        rounded-full
+                        bg-white/70
+                        text-[#058A98]
+                        text-sm
+                        font-semibold
+                        backdrop-blur
+                    ">
+                        Healthcare made easier
+                    </span>
+
+
+                    <h2 class="
+                        mt-6
+                        text-5xl
+                        md:text-6xl
+                        font-extrabold
+                        leading-tight
+                        text-[#171E26]
+                    ">
+                        Your health,
+                        <span class="text-[#2775E4]">
+                            our priority.
+                        </span>
+                    </h2>
+
+
+                    <p class="
+                        mt-5
+                        text-gray-600
+                        text-lg
+                        max-w-xl
+                    ">
+                        Order your medicines online, manage your
+                        budget and know exactly when your order
+                        will be ready.
+                    </p>
+
+
+                    <div class="flex flex-wrap gap-4 mt-8">
+
+                        <button class="
+                            px-7
+                            py-3.5
+                            rounded-full
+                            bg-gradient-to-r
+                            from-[#2775E4]
+                            to-[#08AEBC]
+                            text-white
+                            font-semibold
+                            shadow-lg
+                            shadow-[#2775E4]/20
+                            hover:scale-[1.02]
+                            transition
+                        ">
+                            Shop Medicines
+                        </button>
+
+
+                        <button class="
+                            px-7
+                            py-3.5
+                            rounded-full
+                            bg-white/80
+                            backdrop-blur
+                            text-[#171E26]
+                            font-semibold
+                            border
+                            border-white
+                            hover:bg-white
+                            transition
+                        ">
+                            How MedMart Works
+                        </button>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+          <!-- <h1 class="font-manrope font-extrabold text-xl">
+    Your health, our priority.
+</h1>
+
+<p class="font-inter">
+    Order your medicines online.
+</p> -->
+
+    <h1 class="font-manrope font-black text-5xl md:6xl capitalize my-20">
+        The standard Lorem Ipsum passage, used since 1966
+    </h1>
+    </div>
 </body>
 </html>
